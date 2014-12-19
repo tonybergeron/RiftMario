@@ -55,7 +55,7 @@ public class OVRMainMenu : MonoBehaviour
 	public UnityEngine.Texture 	FadeInTexture 	= null;
 	public Font 	FontReplace		= null;
 
-	public KeyCode	MenuKey			= KeyCode.Space;
+	public KeyCode	MenuKey			= KeyCode.Backspace;
 	public KeyCode	QuitKey			= KeyCode.Escape;
 	
 	// Scenes to show onscreen
