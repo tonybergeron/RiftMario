@@ -146,6 +146,9 @@ public class OVRPlayerController : MonoBehaviour
 
 		UpdateMovement();
 
+		if (Input.GetKey(KeyCode.Space)) 
+			Jump();
+
 		Vector3 moveDirection = Vector3.zero;
 
 		float motorDamp = (1.0f + (Damping * SimulationRate * Time.deltaTime));
