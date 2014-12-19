@@ -11,7 +11,7 @@ function Update () {
 }
 
 function OnCollisionEnter(col: Collision){
-	if(col.gameObject.tag == "Player" && col.moveDirection.y < -0.3f){		
-		Destroy(this.gameObject);
-	}
+//	if(col.gameObject.tag == "Player" && col.moveDirection.y < -0.3f){		
+//		Destroy(this.gameObject);
+//	}
 }
