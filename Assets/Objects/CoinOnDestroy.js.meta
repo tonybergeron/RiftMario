@@ -2,7 +2,8 @@ fileFormatVersion: 2
 guid: 094fd3c93529c45f9a5352bfe0488921
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - coinSound: {fileID: 8300000, guid: d47bd0450c6174c11b15aef2f631da44, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
