@@ -31,7 +31,7 @@ public class OVRPlayerController : MonoBehaviour
 	/// <summary>
 	/// The rate acceleration during movement.
 	/// </summary>
-	public float Acceleration = 0.1f;
+	public float Acceleration = 0.3f;
 
 	/// <summary>
 	/// The rate of damping on movement.
@@ -46,7 +46,7 @@ public class OVRPlayerController : MonoBehaviour
 	/// <summary>
 	/// The force applied to the character when jumping.
 	/// </summary>
-	public float JumpForce = 0.3f;
+	public float JumpForce = 3.0f;
 
 	/// <summary>
 	/// The rate of rotation when using a gamepad.
@@ -71,7 +71,7 @@ public class OVRPlayerController : MonoBehaviour
 	/// <summary>
 	/// Modifies the strength of gravity.
 	/// </summary>
-	public float GravityModifier = 0.379f;
+	public float GravityModifier = 0.5f;
 
 	private float MoveScale = 1.0f;
 	private Vector3 MoveThrottle = Vector3.zero;
